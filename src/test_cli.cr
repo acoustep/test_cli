@@ -1,9 +1,10 @@
 require "admiral"
 
-class HelloWorld < Admiral::Command
+class TestCli < Admiral::Command
+  define_version "1.0.0"
   def run
     puts "Hello World"
   end
 end
 
-HelloWorld.run
+TestCli.run
