@@ -39,4 +39,4 @@ clean:
 	rm -rf $(TEST_CLI)
 
 distclean:
-rm -rf $(TEST_CLI) .crystal .shards libs lib
+	rm -rf $(TEST_CLI) .crystal .shards libs lib
