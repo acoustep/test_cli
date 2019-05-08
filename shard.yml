@@ -1,0 +1,16 @@
+name: test_cli
+version: 0.1.0
+
+authors:
+  - Mitchell Stanley <mitchell.stanley@isev.co.uk>
+
+targets:
+  test_cli:
+    main: src/test_cli.cr
+dependencies:
+  admiral:
+    github: jwaldrip/admiral.cr
+
+crystal: 0.28.0
+
+license: MIT
